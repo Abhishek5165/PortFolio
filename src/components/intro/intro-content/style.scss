@@ -63,7 +63,7 @@
                 }
             }
             p {
-                @include typography(18px, 400, 25px);
+                @include typography(16px, 400, 25px);
                 color: $white;
                 text-align: justify;
                 margin: 15px 0;
@@ -101,7 +101,7 @@
                 display: block;
                 margin-bottom: 30px;
                 @include small-screen {
-                    margin-bottom: 20px;
+                    margin-bottom: 0px;
                     width: 100%;
                 }
                 @include large-screen {
@@ -167,8 +167,8 @@
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    top: 50px;
-                    right: 0;
+                    top: -10px;
+                    right: -20px;
                     padding: 20px;
                     padding-bottom: 10px;
                     text-align: center;
