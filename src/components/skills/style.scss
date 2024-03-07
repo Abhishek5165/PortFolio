@@ -1,0 +1,93 @@
+@import "../../style-config/variable.scss";
+@import "../../style-config/mixins.scss";
+
+.titles {
+    text-align: center;
+    font-size: 24px;
+    color: $white;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #ff014f 0%, #8b002b 100%);
+    padding: 5px;
+    margin: 0% 20% 0% 28%;
+    border-radius: 5px;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    @include small-screen{
+        width: 60%;
+    }
+}
+
+.skills-content-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    @include small-screen {
+        flex-direction: row;
+    }
+
+    .left-col {
+        width: 75%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        @include small-screen {
+            width: 40%;
+        }
+
+        img {
+            width: 136%;
+            height: 380px;
+            max-width: 600px;
+            display: block;
+            position: relative;
+            left: -55px;
+            cursor: pointer;
+            @include small-screen{
+            left: -10px;
+            }
+        }
+    }
+
+    .right-col {
+        position: relative;
+        top: -10px;
+        width: 100%;
+        padding: 10px;
+        color: $white;
+        text-align: center;
+        margin-top: 25px;
+
+        @include small-screen {
+            width: 65%;
+            margin-left: 250px;
+            text-align: left;
+            margin-top: 0;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+
+            @include small-screen {
+                margin-bottom: 30px;
+            }
+        }
+
+        p {
+            @include typography(14px, 400, 20px);
+            margin-bottom: 30px;
+
+            @include small-screen {
+                @include typography(18px, 400, 24px);
+            }
+        }
+        .call-to-action{
+        margin: 0 auto;
+        @include small-screen{
+        margin: 0;
+        }
+        }
+    }
+}
