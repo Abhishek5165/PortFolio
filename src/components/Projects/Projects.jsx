@@ -11,63 +11,63 @@ const projectsData = [
   {
     id: 1,
     name: "Blockbuster Buddy : Movie App",
-    tags: ["web-app", "mobile-app"],
+    tags: ["web-app", "Other"],
     media: {
-      thumbnail: require("../../images/portfolio/thumb-1.png"),
+      thumbnail: require("../../images/portfolio/movie.png"),
     },
   },
   {
     id: 2,
-    name: "Anna & Daniel",
+    name: "Personal : PortFolio",
     tags: ["web-page"],
     media: {
-      thumbnail: require("../../images/portfolio/thumb-2.jpg"),
+      thumbnail: require("../../images/portfolio/personal.png"),
     },
   },
   {
     id: 3,
-    name: "Web Design Landing Page",
-    tags: ["web-page"],
+    name: "Abhishek's-Gallery : Search & DownLoad",
+    tags: ["web-page","web-app"],
     media: {
-      thumbnail: require("../../images/portfolio/thumb-8.jpg"),
+      thumbnail: require("../../images/portfolio/gallery.png"),
     },
   },
   {
     id: 4,
-    name: "Business Analytics Web App",
-    tags: ["web-app", "mobile-app"],
+    name: "Something Different : Killer_Net",
+    tags: ["web-app", "Other"],
     media: {
-      thumbnail: require("../../images/portfolio/thumb-7.jpg"),
+      thumbnail: require("../../images/portfolio/net_boy.png"),
     },
   },
   {
     id: 5,
-    name: "Limitless",
-    tags: ["web-app", "web-page"],
+    name: "E-Commerce Website : Abhishek's Amazon",
+    tags: ["web-page"],
     media: {
-      thumbnail: require("../../images/portfolio/thumb-6.jpg"),
+      thumbnail: require("../../images/portfolio/Ecommerce.png"),
     },
   },
   {
     id: 6,
     name: "Dashboard",
-    tags: ["product", "web-app", "mobile-app"],
+    tags: ["product", "web-app", "Other"],
     media: {
       thumbnail: require("../../images/portfolio/thumb-4.jpg"),
     },
   },
   {
     id: 7,
-    name: "E-Commerce Website : Abhishek's Amazon",
+    name: "LimitLess",
     tags: ["web-app"],
     media: {
-      thumbnail: require("../../images/portfolio/thumb-2.png"),
+      thumbnail: require("../../images/portfolio/thumb-6.jpg"),
     },
   },
   {
     id: 8,
     name: "Virtual Reality Experience",
-    tags: ["web-app", "mobile-app", "web-page"],
+    tags: ["web-app", "Other", "web-page"],
     media: {
       thumbnail: require("../../images/portfolio/thumb-5.jpg"),
     },

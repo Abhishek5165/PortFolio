@@ -20,8 +20,8 @@ const filtersData = [
         id: "web-app",
     },
     {
-        name: "Mobile Apps",
-        id: "mobile-app",
+        name: "Others",
+        id: "Other",
     },
 ];
 

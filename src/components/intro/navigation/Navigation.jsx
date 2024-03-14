@@ -57,7 +57,7 @@ function Navigation() {
           className="navigation-item"
           onClick={() => menuItemClickHandler("blogs")}
         >
-          Blogs & Articles
+          Profiles
         </span>
         <CallAction
           text="Contact Me"

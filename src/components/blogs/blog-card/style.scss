@@ -10,9 +10,11 @@
     cursor: pointer;
     margin-bottom: 20px;
     @include small-screen {
-        height: 538px;
+        height: 400px;
+        margin: 10px;
+        position: relative;
+        top: -20px;
         width: calc(100% / 3);
-        margin-right: 20px;
         margin-bottom: 0;
     }
     .image-section {
@@ -56,6 +58,7 @@
         }
         h3 {
             margin-bottom: 20px;
+            color: rgb(17, 17, 228);
             @include ellipsis;
         }
         p {
@@ -85,6 +88,9 @@
                 color: $white;
                 p {
                     color: $white;
+                }
+                h3 {
+                    color:#EE4266;
                 }
             }
         }
