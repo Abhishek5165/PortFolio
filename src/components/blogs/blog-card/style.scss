@@ -45,6 +45,7 @@
         @include transition-ease;
         @include small-screen {
             padding-bottom: 55px;
+            padding-left: 30px;
         }
 
         .info-bar {

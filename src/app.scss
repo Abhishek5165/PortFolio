@@ -26,7 +26,7 @@ h2 {
 h3 {
     @include typography(14px, 500, 1.2);
     @include small-screen{
-        @include typography(18px, 400, 24px);
+        @include typography(17px, 400, 24px);
     }
 }
 

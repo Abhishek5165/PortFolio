@@ -3,7 +3,7 @@ import Arrow from "../../shared/arrow";
 
 import "./style.scss";
 
-const BlogCard = ({ user, date, image, title, description }) => {
+const BlogCard = ({ user, date, image, title, description, Links }) => {
   return (
     <div className="blog-card">
       <div className="image-section">
@@ -14,10 +14,23 @@ const BlogCard = ({ user, date, image, title, description }) => {
           <div className="user-name"> {user}</div>
           <div className="posted-date">{date}</div>
         </div>
-        <h3>{title}</h3>
+        <h3
+          onClick={() => {
+            window.open(Links, "_blank");
+          }}
+        >
+          {title}
+        </h3>
         <p>{description}</p>
         <div className="readmore-cta">
-          <span className="text">Read More</span>
+          <span
+            className="text"
+            onClick={() => {
+              window.open(Links, "_blank");
+            }}
+          >
+            Read More
+          </span>
           <Arrow />
         </div>
       </div>

@@ -11,6 +11,7 @@ const projectsData = [
   {
     id: 1,
     name: "Blockbuster Buddy : Movie App",
+    link: "https://private-eight-tau.vercel.app/",
     tags: ["web-app", "Other"],
     media: {
       thumbnail: require("../../images/portfolio/little.png"),
@@ -19,6 +20,7 @@ const projectsData = [
   {
     id: 2,
     name: "Personal : PortFolio",
+    link: "https://secret-eight-eta.vercel.app/",
     tags: ["web-page"],
     media: {
       thumbnail: require("../../images/portfolio/personal.png"),
@@ -27,6 +29,7 @@ const projectsData = [
   {
     id: 3,
     name: "Abhishek's-Gallery : Search & DownLoad",
+    link: "https://abhisheks-gallery.vercel.app/",
     tags: ["web-page","web-app"],
     media: {
       thumbnail: require("../../images/portfolio/gallery.png"),
@@ -35,6 +38,7 @@ const projectsData = [
   {
     id: 4,
     name: "Something Different : Killer_Net",
+    link: "https://killer-net-eight.vercel.app/",
     tags: ["web-app", "Other"],
     media: {
       thumbnail: require("../../images/portfolio/net_boy.png"),
