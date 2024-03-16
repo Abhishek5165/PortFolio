@@ -20,7 +20,6 @@ const projectsData = [
   {
     id: 2,
     name: "Personal : PortFolio",
-    link: "https://secret-cyan-phi.vercel.app/",
     tags: ["web-page"],
     media: {
       thumbnail: require("../../images/portfolio/personal.png"),
