@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.scss";
 import Section from "../shared/section/Section";
-import skillImage from "../../images/abhi.jpg";
+import Photo from "../../images/abhishek.jpg";
 import { MdImportantDevices } from "react-icons/md";
 import CallAction from "../shared/call-action/CallAction";
 import { AiOutlineCloudDownload } from "react-icons/ai";
@@ -12,13 +12,17 @@ const About = () => {
       <Section background="dark" id="about">
         <div className="skills-content-wrappers">
           <div className="left-col">
-            <img src={skillImage} alt="Loading.." />
+            <img src={Photo} alt="Loading.." />
           </div>
 
           <div className="right-col">
             <div className="titles">About Me</div>
             <p>
-              <MdImportantDevices /> Hey everyone, my name is Abhishek Verma. I'm currently a 3rd year Btech undergraduate student at IIIT-Bhagalpur. In addition to my studies, I'm also a front-end developer and I'm eager to expand my skills to become a full-stack developer.
+              <MdImportantDevices /> Hey everyone, my name is Abhishek Verma.
+              I'm currently a 3rd year Btech undergraduate student at
+              IIIT-Bhagalpur. In addition to my studies, I'm also a front-end
+              developer and I'm eager to expand my skills to become a full-stack
+              developer.
               <br />
               <br />
               <MdImportantDevices /> Proficient in HTML, CSS, JavaScript and
