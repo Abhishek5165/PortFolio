@@ -13,7 +13,7 @@ const projectsData = [
     name: "Blockbuster Buddy : Movie App",
     tags: ["web-app", "Other"],
     media: {
-      thumbnail: require("../../images/portfolio/movie.png"),
+      thumbnail: require("../../images/portfolio/little.png"),
     },
   },
   {
