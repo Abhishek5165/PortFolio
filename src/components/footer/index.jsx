@@ -19,6 +19,12 @@ const Footer = () => {
         <ul className="footer-menu-items">
           <li
             className="footer-menu-item"
+            onClick={() => scrollToSection("about")}
+          >
+            About
+          </li>
+          <li
+            className="footer-menu-item"
             onClick={() => scrollToSection("skills")}
           >
             Skills
@@ -33,7 +39,7 @@ const Footer = () => {
             className="footer-menu-item"
             onClick={() => scrollToSection("blogs")}
           >
-            Blog & Articles
+            profiles
           </li>
           <li
             className="footer-menu-item"

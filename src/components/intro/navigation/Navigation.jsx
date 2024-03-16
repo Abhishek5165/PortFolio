@@ -40,7 +40,12 @@ function Navigation() {
             </div>
       
       <div className={`navigation ${mobileMenu ? "active" : ""}`}>
-        <span className="navigation-item">Home</span>
+        <span
+          className="navigation-item"
+          onClick={() => menuItemClickHandler("about")}
+        >
+          About
+        </span>
         <span
           className="navigation-item"
           onClick={() => menuItemClickHandler("skills")}

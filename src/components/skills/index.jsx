@@ -1,41 +1,39 @@
 import React from "react";
 import "./style.scss";
 import Section from "../shared/section/Section";
-import skillImage from "../../images/skills.jpg";
-import { MdImportantDevices } from "react-icons/md";
-import CallAction from "../shared/call-action/CallAction";
-import {AiOutlineCloudDownload} from "react-icons/ai";
 
 const Skills = () => {
+
+  function getTextForIndex(index) {
+    const texts = [
+      "C/C++",
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "Java Script",
+      "React Js",
+      "Node Js",
+      "MongoDB",
+      "PHP",
+      "MySql",
+      "Python",
+      "Git/Github"
+    ];
+  
+    return texts[index];
+  }
+  
   return (
     <div>
       <Section background="dark" id="skills">
+          <h2 className="skill">Skills</h2>
         <div className="skills-content-wrapper">
-          <div className="left-col">
-            <img src={skillImage} alt="Loading.." />
-          </div>
-
-          <div className="right-col">
-            <div className="titles">PROFESSIONAL SKILLS</div>
-            <p>
-              <MdImportantDevices /> Proficient in HTML, CSS, JavaScript and
-              React JS for building responsive and interactive user interfaces.
-              <br />
-              <br />
-              <MdImportantDevices /> Strong analytical and problem-solving
-              skills to address technical challenges. Ability to innovate and
-              propose creative engineering solutions.
-              <br />
-              <br /> <MdImportantDevices /> Understanding of server-side
-              languages such as Node.js, Python, or PHP, Proficiency in database
-              management systems like MySQL, MongoDB.
-              <br />
-              <br />
-              <MdImportantDevices /> Strong understanding of fundamental data
-              structures such as arrays, linked lists, stacks, queues, trees,
-              graphs, DP.
-            </p>
-            <CallAction text="Download CV" icon={<AiOutlineCloudDownload/> }/>
+          <div className="grid-container">
+            {Array.from({ length: 12 }, (_, index) => (
+              <div key={index} className="grid-item">
+                 &#9989; {getTextForIndex(index)}
+              </div>
+            ))}
           </div>
         </div>
       </Section>
