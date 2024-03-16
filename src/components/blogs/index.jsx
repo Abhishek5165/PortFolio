@@ -3,7 +3,7 @@ import React from "react";
 import Section from "../shared/section/Section";
 import leetcode from "../../images/blogs/leetcode.png";
 import codeforces from "../../images/blogs/codeforces.jpg";
-import codingNinja from "../../images/blogs/CodingNinja.png";
+import codingNinja from "../../images/blogs/codingninja.png";
 import codeChef from "../../images/blogs/codechef.jpeg";
 import BlogCard from "./blog-card";
 

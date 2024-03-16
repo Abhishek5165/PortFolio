@@ -45,7 +45,7 @@ const projectsData = [
     name: "E-Commerce Website : Abhishek's Amazon",
     tags: ["web-page"],
     media: {
-      thumbnail: require("../../images/portfolio/Ecommerce.png"),
+      thumbnail: require("../../images/portfolio/ecommerce.png"),
     },
   },
   {
