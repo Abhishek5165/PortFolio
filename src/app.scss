@@ -1,5 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 @import "./style-config/variable.scss", "./style-config/mixins.scss";
+
+
+/* Disable text selection for all elements */
+
+body {
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
+}
+
 * {
     margin: 0;
     padding: 0;

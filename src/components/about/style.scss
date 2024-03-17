@@ -10,7 +10,7 @@
     padding: 5px;
     margin: 0% 20% 0% 28%;
     border-radius: 5px;
-    width: 40%;
+    width: 58%;
     margin: 0 auto;
     margin-bottom: 40px;
 
@@ -38,18 +38,34 @@
         }
 
         img {
-            width: 85%;
-            width: 79%;
-            height: 81%;
-            margin: 5% 10%;
-            border-radius: 50%;
-
             @include small-screen {
                 width: 100%;
                 height: 400px;
                 margin-top: 10px;
                 margin-left: 100px;
                 border-radius: 20px;
+                background-position: center;
+                background-size: cover;
+            }
+
+            @media only screen and (max-width: 450px) {
+                width: 72%;
+                height: 64%;
+                margin: 30% 14%;
+                border-radius: 50%;
+            }
+
+            @media only screen and (min-width: 451px) and (max-width: 740px) {
+                width: 66%;
+                height: 94%;
+                margin: 1% 17%;
+                border-radius: 50%;
+            }
+
+            @media only screen and (min-width: 741px) {
+                width: calc(66% + 100px);
+                height: calc(84% + 100px);
+                margin: 5% 15%;
             }
         }
     }

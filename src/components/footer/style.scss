@@ -31,7 +31,9 @@
         list-style-type: none;
         display: flex;
         align-items: center;
+        justify-content: center;
         margin-top: 30px;
+        width: 109%;
 
         .footer-menu-item {
             @include typography(12px, 400, 20px);

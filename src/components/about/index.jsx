@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.scss";
 import Section from "../shared/section/Section";
-import Photo from "../../images/abhishek.jpg";
+import Photo from "../../../src/images/abhishek.jpg";
 import { MdImportantDevices } from "react-icons/md";
 
 import Open from "../Open";
