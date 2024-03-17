@@ -4,6 +4,7 @@
 .skills-content-wrapper {
     display: flex;
     align-items: center;
+    height: 565px;
     width: 110%;
     flex-direction: column;
 
@@ -12,6 +13,13 @@
         height: 55vh;
         position: relative;
         top: -70px;
+    }
+
+    @include medium-screen {
+        .skills-content-wrappers .left-col {
+            height: 441px;
+            width: 83%;
+        }
     }
 }
 

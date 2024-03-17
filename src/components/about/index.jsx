@@ -3,8 +3,8 @@ import "./style.scss";
 import Section from "../shared/section/Section";
 import Photo from "../../images/abhishek.jpg";
 import { MdImportantDevices } from "react-icons/md";
-import CallAction from "../shared/call-action/CallAction";
-import { AiOutlineCloudDownload } from "react-icons/ai";
+
+import Open from "../Open";
 
 const About = () => {
   return (
@@ -42,7 +42,7 @@ const About = () => {
               structures such as arrays, linked lists, stacks, queues, trees,
               graphs, DP.
             </p>
-            <CallAction text="Download CV" icon={<AiOutlineCloudDownload />} />
+            <Open></Open>
           </div>
         </div>
       </Section>
