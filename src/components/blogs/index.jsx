@@ -1,10 +1,10 @@
 import React from "react";
 
 import Section from "../shared/section/Section";
-import leetcode from "../../images/blogs/leet.png";
+import leetcode from "../../images/blogs/leetcode.png";
 import codeforces from "../../images/blogs/codeforces.jpg";
 import codingNinja from "../../images/blogs/ninja.png";
-import codeChef from "../../images/blogs/codechef.jpeg";
+import codeChef from "../../images/blogs/codechef.png";
 import BlogCard from "./blog-card";
 
 import "./style.scss";
