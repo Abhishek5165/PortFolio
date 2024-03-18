@@ -1,7 +1,7 @@
 import React from "react";
 
 import Section from "../shared/section/Section";
-import leetcode from "../../images/blogs/leetcode.png";
+import leetcode from "../../images/blogs/leet.png";
 import codeforces from "../../images/blogs/codeforces.jpg";
 import codingNinja from "../../images/blogs/ninja.png";
 import codeChef from "../../images/blogs/codechef.jpeg";
