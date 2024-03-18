@@ -29,7 +29,7 @@ const projectsData = [
     id: 3,
     name: "Abhishek's-Gallery : Search & DownLoad",
     link: "https://abhisheks-gallery.vercel.app/",
-    tags: ["web-page","web-app"],
+    tags: ["web-page", "web-app"],
     media: {
       thumbnail: require("../../images/portfolio/gallery.png"),
     },
@@ -55,7 +55,7 @@ const projectsData = [
     id: 6,
     name: "PyGame : Space Invader",
     tags: ["product", "web-app", "Other"],
-    link:"https://spark-13.itch.io/invader-game",
+    link: "https://itch.io/embed-upload/9965843?color=49d05c",
     media: {
       thumbnail: require("../../images/portfolio/space.avif"),
     },
