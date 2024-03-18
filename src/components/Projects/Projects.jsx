@@ -20,7 +20,6 @@ const projectsData = [
   {
     id: 2,
     name: "Personal : PortFolio",
-    link:"http://localhost:5173/",
     tags: ["web-page"],
     media: {
       thumbnail: require("../../images/portfolio/personal.png"),
