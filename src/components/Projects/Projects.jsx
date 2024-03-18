@@ -20,6 +20,7 @@ const projectsData = [
   {
     id: 2,
     name: "Personal : PortFolio",
+    link:"http://localhost:5173/",
     tags: ["web-page"],
     media: {
       thumbnail: require("../../images/portfolio/personal.png"),
@@ -53,10 +54,11 @@ const projectsData = [
   },
   {
     id: 6,
-    name: "Dashboard",
+    name: "PyGame : Space Invader",
     tags: ["product", "web-app", "Other"],
+    link:"https://spark-13.itch.io/invader-game",
     media: {
-      thumbnail: require("../../images/portfolio/thumb-4.jpg"),
+      thumbnail: require("../../images/portfolio/space.avif"),
     },
   },
   {
