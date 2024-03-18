@@ -55,7 +55,6 @@ const projectsData = [
     id: 6,
     name: "PyGame : Space Invader",
     tags: ["product", "web-app", "Other"],
-    link: "https://itch.io/embed-upload/9965843?color=49d05c",
     media: {
       thumbnail: require("../../images/portfolio/space.avif"),
     },
