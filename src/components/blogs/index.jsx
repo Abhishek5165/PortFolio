@@ -26,15 +26,15 @@ const Blogs = () => {
           Links="https://codeforces.com/profile/Abhi1310"
           image={codeforces}
           title="Abhi1310"
-          description="200+ Problems Solved
-                    Pupil - Rating (1200)"
+          description="160+ Problems Solved
+                    "
         />
         <BlogCard
           user="CodingNinja"
           Links="https://www.codingninjas.com/studio/profile/Abhishek_1320"
           image={codingNinja}
           title="Abhishek_1320"
-          description="Problems Solved 200+
+          description="Problems Solved 250+
                     Level - Expert (1854)"
         />
         <BlogCard
@@ -42,7 +42,7 @@ const Blogs = () => {
           Links="https://www.codechef.com/users/abhishek_105"
           image={codeChef}
           title="decoder_boy_13"
-          description="200+ Problems Solved
+          description="Highest Rating - (1476)
                     2 ⭐ at CodeChef"
         />
       </div>

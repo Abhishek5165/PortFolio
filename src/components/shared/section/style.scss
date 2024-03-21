@@ -1,6 +1,10 @@
 @import "../../../style-config/variable.scss";
 @import "../../../style-config/mixins.scss";
 
+body{
+
+background-color: $black;
+}
 .section {
     padding: 20px 0;
     position: relative;
@@ -14,6 +18,8 @@
 
     &.dark {
         background-color: $black;
+        position: relative;
+        top: 50px;
     }
 
     &.light {

@@ -11,8 +11,8 @@ const projectsData = [
   {
     id: 1,
     name: "Blockbuster Buddy : Movie App",
-    link: "https://private-eight-tau.vercel.app/",
     tags: ["web-app", "Other"],
+    link:"https://private-nine-phi.vercel.app/",
     media: {
       thumbnail: require("../../images/portfolio/little.png"),
     },
@@ -20,6 +20,7 @@ const projectsData = [
   {
     id: 2,
     name: "Personal : PortFolio",
+    link:"Reach Out",
     tags: ["web-page"],
     media: {
       thumbnail: require("../../images/portfolio/personal.png"),
@@ -37,44 +38,45 @@ const projectsData = [
   {
     id: 4,
     name: "Something Different : Killer_Net",
-    link: "https://killer-net-eight.vercel.app/",
+    link: "https://killer-net.vercel.app/",
     tags: ["web-app", "Other"],
     media: {
       thumbnail: require("../../images/portfolio/net_boy.png"),
     },
   },
-  {
-    id: 5,
-    name: "E-Commerce Website : Abhishek's Amazon",
-    tags: ["web-page"],
-    media: {
-      thumbnail: require("../../images/portfolio/amazon.png"),
-    },
-  },
+  // {
+  //   id: 5,
+  //   name: "E-Commerce Website : Abhishek's Amazon",
+  //   tags: ["web-page"],
+  //   media: {
+  //     thumbnail: require("../../images/portfolio/amazon.png"),
+  //   },
+  // },
   {
     id: 6,
     name: "PyGame : Space Invader",
-    tags: ["product", "web-app", "Other"],
+    link:"https://spark-13.itch.io/invader-game",
+    tags: [ "web-app", "Other"],
     media: {
       thumbnail: require("../../images/portfolio/space.avif"),
     },
   },
-  {
-    id: 7,
-    name: "LimitLess",
-    tags: ["web-app"],
-    media: {
-      thumbnail: require("../../images/portfolio/thumb-6.jpg"),
-    },
-  },
-  {
-    id: 8,
-    name: "Virtual Reality Experience",
-    tags: ["web-app", "Other", "web-page"],
-    media: {
-      thumbnail: require("../../images/portfolio/thumb-5.jpg"),
-    },
-  },
+  // {
+  //   id: 7,
+  //   name: "LimitLess",
+  //   tags: ["web-app"],
+  //   media: {
+  //     thumbnail: require("../../images/portfolio/thumb-6.jpg"),
+  //   },
+  // },
+  // {
+  //   id: 8,
+  //   name: "Virtual Reality Experience",
+  //   tags: ["web-app", "Other", "web-page"],
+  //   media: {
+  //     thumbnail: require("../../images/portfolio/thumb-5.jpg"),
+  //   },
+  // },
 ];
 
 const Portfolio = () => {
