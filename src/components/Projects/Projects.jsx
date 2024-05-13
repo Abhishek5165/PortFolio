@@ -41,7 +41,7 @@ const projectsData = [
     link: "https://color-game-ashen.vercel.app/",
     tags: ["web-app", "Other"],
     media: {
-      thumbnail: require("../../../dist/assets/game.png"),
+      thumbnail: require("../../images/portfolio/game.png"),
     },
   },
   // {

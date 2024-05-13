@@ -1,5 +1,5 @@
 import React from "react";
-import PDF from "../../../dist/assets/resume.pdf";
+import PDF from "../../images/Abhishek.pdf";
 import CallAction from "../shared/call-action/CallAction";
 import { AiOutlineCloudDownload } from "react-icons/ai";
 import "./style.scss";
