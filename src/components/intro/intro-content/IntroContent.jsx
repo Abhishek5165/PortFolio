@@ -29,10 +29,6 @@ const IntroContent = () => {
             Bihar.🤝I love to work in groups where everyone can voice
             their opinions and ideas.
           </p>
-          <CallAction
-            text="Get in Touch"
-            action={() => scrollToSection("contact")}
-          />
         </div>
         <div className="right-col">
           <img src={image} alt="Loading...." />

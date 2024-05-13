@@ -15,7 +15,7 @@ const Blogs = () => {
       <div className="blogs-content-wrapper">
         <BlogCard
           user="LeetCode"
-          Links="https://leetcode.com/A_B_H_I_S_H_E_K_131/"
+          Links="https://leetcode.com/Abhishek_5165/"
           image={leetcode}
           title="A_B_H_I_S_H_E_K_131"
           description="Problem Solved 500+
@@ -34,7 +34,7 @@ const Blogs = () => {
           Links="https://www.codingninjas.com/studio/profile/Abhishek_1320"
           image={codingNinja}
           title="Abhishek_1320"
-          description="Problems Solved 250+
+          description="Problems Solved 270+
                     Level - Expert (1854)"
         />
         <BlogCard
@@ -42,7 +42,7 @@ const Blogs = () => {
           Links="https://www.codechef.com/users/abhishek_105"
           image={codeChef}
           title="decoder_boy_13"
-          description="Highest Rating - (1476)
+          description="Highest Rating - (1517)
                     2 ⭐ at CodeChef"
         />
       </div>

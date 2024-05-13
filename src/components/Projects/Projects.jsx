@@ -37,11 +37,11 @@ const projectsData = [
   },
   {
     id: 4,
-    name: "Something Different : Killer_Net",
-    link: "https://killer-net.vercel.app/",
+    name: "Something Different : Color-Game",
+    link: "https://color-game-ashen.vercel.app/",
     tags: ["web-app", "Other"],
     media: {
-      thumbnail: require("../../images/portfolio/net_boy.png"),
+      thumbnail: require("../../../dist/assets/game.png"),
     },
   },
   // {
