@@ -7,8 +7,8 @@ const Skills = () => {
   function getTextForIndex(index) {
     const texts = [
       "C/C++",
-      "HTML",
-      "CSS",
+      "HTML/CSS",
+      "Django",
       "Tailwind CSS",
       "Java Script",
       "React Js",

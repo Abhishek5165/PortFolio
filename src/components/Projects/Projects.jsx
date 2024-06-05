@@ -11,7 +11,7 @@ const projectsData = [
   {
     id: 1,
     name: "Blockbuster Buddy : Movie App",
-    tags: ["web-app", "Other"],
+    tags: ["web-app", "Other","web-page"],
     link:"https://private-nine-phi.vercel.app/",
     media: {
       thumbnail: require("../../images/portfolio/little.png"),
@@ -19,18 +19,18 @@ const projectsData = [
   },
   {
     id: 2,
-    name: "Personal : PortFolio",
-    link:"Reach Out",
+    name: "NetFlix Clone : Killer",
+    link:"https://killer-net.vercel.app/",
     tags: ["web-page"],
     media: {
-      thumbnail: require("../../images/portfolio/personal.png"),
+      thumbnail: require("../../images/portfolio/net_boy.png"),
     },
   },
   {
     id: 3,
     name: "Abhishek's-Gallery : Search & DownLoad",
     link: "https://abhisheks-gallery.vercel.app/",
-    tags: ["web-page", "web-app"],
+    tags: ["web-page"],
     media: {
       thumbnail: require("../../images/portfolio/gallery.png"),
     },
@@ -44,14 +44,15 @@ const projectsData = [
       thumbnail: require("../../images/portfolio/game.png"),
     },
   },
-  // {
-  //   id: 5,
-  //   name: "E-Commerce Website : Abhishek's Amazon",
-  //   tags: ["web-page"],
-  //   media: {
-  //     thumbnail: require("../../images/portfolio/amazon.png"),
-  //   },
-  // },
+  {
+    id: 5,
+    name: "E-Commerce Website : Trendsetter Threads",
+    link: "https://predicant-protectio.000webhostapp.com/",
+    tags: ["web-page","Other"],
+    media: {
+      thumbnail: require("../../images/portfolio/A1.png"),
+    },
+  },
   {
     id: 6,
     name: "PyGame : Space Invader",
@@ -104,7 +105,7 @@ const Portfolio = () => {
   };
 
   return (
-    <Section id="portfolio" title="Check my Protfolio" background="light">
+    <Section id="portfolio" title="Check my Projects" background="light">
       <div className="portfolio-content-wrapper">
         <Filters filterProjects={(tag) => filterProjects(tag)} />
         <Showcase data={projects} transition={transition} />

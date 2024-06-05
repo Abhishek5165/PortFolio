@@ -19,7 +19,7 @@ const About = () => {
             <div className="titles">About Me</div>
             <p>
               <MdImportantDevices /> Hey everyone, my name is Abhishek Verma.
-              I'm currently a 3rd year Btech undergraduate student at
+              I'm currently a 4th year Btech undergraduate student at
               IIIT-Bhagalpur. In addition to my studies, I'm also a front-end
               developer and I'm eager to expand my skills to become a full-stack
               developer.
@@ -34,7 +34,7 @@ const About = () => {
               propose creative engineering solutions.
               <br />
               <br /> <MdImportantDevices /> Understanding of server-side
-              languages such as Node.js, Python, or PHP, Proficiency in database
+              languages such as Node.js, Python and PHP, Proficiency in database
               management systems like MySQL, MongoDB.
               <br />
               <br />
