@@ -11,7 +11,7 @@ const projectsData = [
   {
     id: 1,
     name: "Blockbuster Buddy : Movie App",
-    tags: ["web-app", "Other","web-page"],
+    tags: ["web-app", "Other"],
     link:"https://private-nine-phi.vercel.app/",
     media: {
       thumbnail: require("../../images/portfolio/little.png"),
@@ -62,14 +62,15 @@ const projectsData = [
       thumbnail: require("../../images/portfolio/space.avif"),
     },
   },
-  // {
-  //   id: 7,
-  //   name: "LimitLess",
-  //   tags: ["web-app"],
-  //   media: {
-  //     thumbnail: require("../../images/portfolio/thumb-6.jpg"),
-  //   },
-  // },
+  {
+    id: 7,
+    name: "CRUD App",
+    link:"https://crud1310.infinityfreeapp.com/",
+    tags: ["web-app"],
+    media: {
+      thumbnail: require("../../images/portfolio/D1.png"),
+    },
+  },
   // {
   //   id: 8,
   //   name: "Virtual Reality Experience",
