@@ -71,14 +71,15 @@ const projectsData = [
       thumbnail: require("../../images/portfolio/D1.png"),
     },
   },
-  // {
-  //   id: 8,
-  //   name: "Virtual Reality Experience",
-  //   tags: ["web-app", "Other", "web-page"],
-  //   media: {
-  //     thumbnail: require("../../images/portfolio/thumb-5.jpg"),
-  //   },
-  // },
+  {
+    id: 8,
+    name: "My - Resume",
+    link:"https://my-resume-two-theta.vercel.app/",
+    tags: ["web-page"],
+    media: {
+      thumbnail: require("../../images/portfolio/resume.png"),
+    },
+  },
 ];
 
 const Portfolio = () => {
