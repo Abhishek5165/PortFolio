@@ -12,10 +12,7 @@ import { scrollToSection } from "../../utils/helpers.js";
 function Navigation() {
   const [mobileMenu, setMobileMenu] = useState(false);
 
-  const menuItemClickHandler = (section) => {
-      setMobileMenu(!mobileMenu);
-      scrollToSection(section);
-  };
+  
 
   return (
     <div className="top-navigation-bar">
