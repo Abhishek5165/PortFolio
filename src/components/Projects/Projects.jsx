@@ -20,7 +20,7 @@ const projectsData = [
   {
     id: 2,
     name: "NetFlix Clone : Killer",
-    link:"https://killer-net.vercel.app/",
+    link:"https://killer-o1qb7dl80-abhisheks-projects-c4910510.vercel.app/",
     tags: ["web-page"],
     media: {
       thumbnail: require("../../images/portfolio/net_boy.png"),
