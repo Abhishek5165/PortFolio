@@ -37,11 +37,11 @@ const projectsData = [
   },
   {
     id: 4,
-    name: "Something Different : Color-Game",
-    link: "https://color-game-ashen.vercel.app/",
-    tags: ["web-app", "Other"],
+    name: "MarketHive - An Amazon Preview",
+    link:"https://market-hive.vercel.app/",
+    tags: ["web-page","web-app"],
     media: {
-      thumbnail: require("../../images/portfolio/game.png"),
+      thumbnail: require("../../images/portfolio/amazon.png"),
     },
   },
   {
