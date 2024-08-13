@@ -1,0 +1,12 @@
+@import "../../style-config/mixins.scss", "../../style-config/variable.scss";
+.contact-content-wrapper {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    flex-direction: column;
+
+    @include small-screen{
+    flex-direction: row;
+    margin-top: 30px;
+    }
+}
