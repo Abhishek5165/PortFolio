@@ -12,7 +12,7 @@ const projectsData = [
     id: 1,
     name: "Blockbuster Buddy : Movie App",
     tags: ["web-app", "Other"],
-    link:"https://private-nine-phi.vercel.app/",
+    link:"https://github.com/Abhishek5165/Private",
     media: {
       thumbnail: require("../../images/portfolio/little.png"),
     },
@@ -47,7 +47,7 @@ const projectsData = [
   {
     id: 5,
     name: "E-Commerce Website : Trendsetter Threads",
-    link: "https://predicant-protectio.000webhostapp.com/",
+    link: "https://github.com/Abhishek5165/Abhisheks_Shopping_Cart",
     tags: ["web-page","Other"],
     media: {
       thumbnail: require("../../images/portfolio/A1.png"),
@@ -73,11 +73,11 @@ const projectsData = [
   },
   {
     id: 8,
-    name: "My - Resume",
-    link:"https://my-resume-two-theta.vercel.app/",
+    name: "Coder Quest : An E-Learning Website",
+    link:"https://github.com/Abhishek5165/Coder-Quest",
     tags: ["web-page"],
     media: {
-      thumbnail: require("../../images/portfolio/resume.png"),
+      thumbnail: require("../../images/portfolio/E-learn.png"),
     },
   },
 ];
