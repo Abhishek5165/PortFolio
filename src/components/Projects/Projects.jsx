@@ -64,11 +64,11 @@ const projectsData = [
   },
   {
     id: 7,
-    name: "CRUD App",
-    link:"https://crud1310.infinityfreeapp.com/",
-    tags: ["web-app"],
+    name: "Meet-Orbit : A Meeting Schedular website",
+    link:"https://github.com/Abhishek5165/MeetOrbit",
+    tags: ["web-app","Other"],
     media: {
-      thumbnail: require("../../images/portfolio/D1.png"),
+      thumbnail: require("../../images/portfolio/meeting.webp"),
     },
   },
   {
