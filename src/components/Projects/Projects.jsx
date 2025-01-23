@@ -11,19 +11,19 @@ const projectsData = [
   {
     id: 1,
     name: "Blockbuster Buddy : Movie App",
-    tags: ["web-app", "Other"],
-    link:"https://github.com/Abhishek5165/Private",
+    tags: ["web-app"],
+    link: "https://github.com/Abhishek5165/Private",
     media: {
       thumbnail: require("../../images/portfolio/little.png"),
     },
   },
   {
     id: 2,
-    name: "NetFlix Clone : Killer",
-    link:"https://killer-o1qb7dl80-abhisheks-projects-c4910510.vercel.app/",
-    tags: ["web-page"],
+    name: "Advanced_Auth : OAuth 2.0",
+    link: "https://advance-oauth-2-0.onrender.com",
+    tags: ["web-app"],
     media: {
-      thumbnail: require("../../images/portfolio/net_boy.png"),
+      thumbnail: require("../../images/portfolio/OAuth.png"),
     },
   },
   {
@@ -38,8 +38,8 @@ const projectsData = [
   {
     id: 4,
     name: "MarketHive - An Amazon Preview",
-    link:"https://market-hive.vercel.app/",
-    tags: ["web-page","web-app"],
+    link: "https://market-hive.vercel.app/",
+    tags: ["web-page"],
     media: {
       thumbnail: require("../../images/portfolio/amazon.png"),
     },
@@ -48,7 +48,7 @@ const projectsData = [
     id: 5,
     name: "E-Commerce Website : Trendsetter Threads",
     link: "https://github.com/Abhishek5165/Abhisheks_Shopping_Cart",
-    tags: ["web-page","Other"],
+    tags: ["web-page", "Other"],
     media: {
       thumbnail: require("../../images/portfolio/A1.png"),
     },
@@ -56,8 +56,8 @@ const projectsData = [
   {
     id: 6,
     name: "PyGame : Space Invader",
-    link:"https://spark-13.itch.io/invader-game",
-    tags: [ "web-app", "Other"],
+    link: "https://spark-13.itch.io/invader-game",
+    tags: ["web-app", "Other"],
     media: {
       thumbnail: require("../../images/portfolio/space.avif"),
     },
@@ -65,8 +65,8 @@ const projectsData = [
   {
     id: 7,
     name: "Meet-Orbit : A Meeting Schedular website",
-    link:"https://github.com/Abhishek5165/MeetOrbit",
-    tags: ["web-app","Other"],
+    link: "https://github.com/Abhishek5165/MeetOrbit",
+    tags: ["web-app", "Other"],
     media: {
       thumbnail: require("../../images/portfolio/meeting.webp"),
     },
@@ -74,8 +74,8 @@ const projectsData = [
   {
     id: 8,
     name: "Coder Quest : An E-Learning Website",
-    link:"https://github.com/Abhishek5165/Coder-Quest",
-    tags: ["web-page"],
+    link: "https://github.com/Abhishek5165/Coder-Quest",
+    tags: ["web-page", "Other"],
     media: {
       thumbnail: require("../../images/portfolio/E-learn.png"),
     },
