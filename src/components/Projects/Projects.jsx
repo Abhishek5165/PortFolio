@@ -55,20 +55,20 @@ const projectsData = [
   },
   {
     id: 6,
-    name: "PyGame : Space Invader",
-    link: "https://spark-13.itch.io/invader-game",
-    tags: ["web-app", "Other"],
-    media: {
-      thumbnail: require("../../images/portfolio/space.avif"),
-    },
-  },
-  {
-    id: 7,
     name: "Meet-Orbit : A Meeting Schedular website",
     link: "https://github.com/Abhishek5165/MeetOrbit",
     tags: ["web-app", "Other"],
     media: {
       thumbnail: require("../../images/portfolio/meeting.webp"),
+    },
+  },
+  {
+    id: 7,
+    name: "Friends-Circle : Social App",
+    link: "https://friends-circle-ia1l.onrender.com",
+    tags: ["web-app", "Other"],
+    media: {
+      thumbnail: require("../../images/portfolio/Friend.png"),
     },
   },
   {
