@@ -18,12 +18,12 @@ const projectsData = [
     },
   },
   {
-    id: 2,
-    name: "Advanced_Auth : OAuth 2.0",
-    link: "https://advance-oauth-2-0.onrender.com",
-    tags: ["web-app"],
+    id: 5,
+    name: "E-Commerce Website : Trends",
+    link: "https://trends-frontend-ebon.vercel.app",
+    tags: ["web-page", "Other"],
     media: {
-      thumbnail: require("../../images/portfolio/OAuth.png"),
+      thumbnail: require("../../images/portfolio/2.png"),
     },
   },
   {
@@ -45,12 +45,12 @@ const projectsData = [
     },
   },
   {
-    id: 5,
-    name: "E-Commerce Website : Trendsetter Threads",
-    link: "https://github.com/Abhishek5165/Abhisheks_Shopping_Cart",
-    tags: ["web-page", "Other"],
+    id: 2,
+    name: "Advanced_Auth : OAuth 2.0",
+    link: "https://advance-oauth-2-0.onrender.com",
+    tags: ["web-app"],
     media: {
-      thumbnail: require("../../images/portfolio/A1.png"),
+      thumbnail: require("../../images/portfolio/OAuth.png"),
     },
   },
   {
